@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import EditMessage from "./EditMessage";
 
+
 function Message({ message, currentUser, onMessageDelete, onUpdateMessage }) {
   const [isEditing, setIsEditing] = useState(false);
 

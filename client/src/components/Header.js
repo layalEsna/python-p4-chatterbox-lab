@@ -14,6 +14,7 @@ function Header({ isDarkMode, onToggleDarkMode }) {
         <label htmlFor="toggle-dark-mode"></label>
       </div>
     </header>
+    
   );
 }
 

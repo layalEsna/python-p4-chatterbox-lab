@@ -26,6 +26,7 @@ function App() {
     setMessages(updatedMessages);
   }
 
+  
   function handleUpdateMessage(updatedMessageObj) {
     const updatedMessages = messages.map((message) => {
       if (message.id === updatedMessageObj.id) {
